@@ -30,3 +30,14 @@ p {
   color: #465b52;
   margin: 0;
 }
+/* Header start */
+#header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: aquamarine;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* Home page */
