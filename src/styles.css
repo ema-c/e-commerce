@@ -33,11 +33,25 @@ p {
 /* Header start */
 #header {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: aquamarine;
+  background-color: rgb(127, 240, 255);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+}
+#navbar li a {
+
 }
 
 /* Home page */
